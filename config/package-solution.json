@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "perla-1-s-solution-client-side-solution",
+    "id": "429b83fa-22b9-4b43-95e9-a78e2873f55e",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.3"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Perla_1sSolution description"
+      },
+      "longDescription": {
+        "default": "Perla_1sSolution description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "perla-1-s-solution Feature",
+        "description": "The feature that activates elements of the perla-1-s-solution solution.",
+        "id": "c256cf90-2aa5-4b96-9503-8e076e3015ff",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/perla-1-s-solution.sppkg"
+  }
+}

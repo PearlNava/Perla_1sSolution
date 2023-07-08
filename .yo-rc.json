@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "nodeVersion": "16.18.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.3",
+    "libraryName": "perla-1-s-solution",
+    "libraryId": "429b83fa-22b9-4b43-95e9-a78e2873f55e",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "Perla_1sSolution",
+    "solutionShortDescription": "Perla_1sSolution description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "wp-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wpForm/WpFormWebPart.js",
+          "manifest": "./src/webparts/wpForm/WpFormWebPart.manifest.json"
+        }
+      ]
+    },
+    "simple-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/simpleForm/SimpleFormWebPart.js",
+          "manifest": "./src/webparts/simpleForm/SimpleFormWebPart.manifest.json"
+        }
+      ]
+    },
+    "dialog-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dialogForm/DialogFormWebPart.js",
+          "manifest": "./src/webparts/dialogForm/DialogFormWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WpFormWebPartStrings": "lib/webparts/wpForm/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "SimpleFormWebPartStrings": "lib/webparts/simpleForm/loc/{locale}.js",
+    "DialogFormWebPartStrings": "lib/webparts/dialogForm/loc/{locale}.js"
+  }
+}
